@@ -5,6 +5,6 @@ public class NotFoundException extends RuntimeException  {
     public NotFoundException(String s) {
         super(s);
 //        super.getMessage();
-//        System.out.println(s);
+        System.out.println(s);
     }
 }
